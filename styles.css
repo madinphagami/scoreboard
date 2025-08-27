@@ -1,8 +1,54 @@
 body {
-    margin: 0;
+    margin: 0px;
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
 }
 
 .container {
+    background: #1B244A;
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.team-section {
+    width: 110px;
+}
+
+.team-text, button{
+    color: white;
+}
+
+.score-adder {
+    color: #9AABD8
+}
+
+.team-score {
+    color: #F94F6D;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.score-adder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+button:hover {
+  background: #2C3A78; /* lighter navy */
 }
