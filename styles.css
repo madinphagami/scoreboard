@@ -10,7 +10,6 @@ body {
     height: 300px;
     margin: 50px auto;
     border-radius: 10px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
